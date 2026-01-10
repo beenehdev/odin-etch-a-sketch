@@ -1,14 +1,19 @@
 
 #container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: black;
+    flex-direction: column;
+    background-color: gray;
 }
 
-.newDiv {
+.rootDiv {
     display: flex;
-    width: 10px;
-    height: 10px;
-    background-color: gray; 
+    justify-content: space-evenly;
+    width: 20px;
+    height: 20px;
+    background-color: red; 
+}
+
+.branchDiv {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
 }
